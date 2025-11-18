@@ -80,7 +80,7 @@ Add charts for visual expense analysis
 <img width="347" height="691" alt="Screenshot 2025-11-09 001518" src="https://github.com/user-attachments/assets/61921d8a-52dc-44f3-bd9b-1e8d8e7cbf00" />
 <img width="347" height="691" alt="Screenshot 2025-11-07 230450" src="https://github.com/user-attachments/assets/4b8c8996-2ba9-422c-beba-4366db42f51c" />
 
-
+---
 ## 🗄 Local Database (Room)
 
 ### `expenses` table
