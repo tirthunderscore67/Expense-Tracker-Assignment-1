@@ -44,35 +44,35 @@ app/
 ---
 ### 🛠 Technologies Used
 
-Kotlin
+- Kotlin
 
-Jetpack Compose
+- Jetpack Compose
 
-Room Database
+- Room Database
 
-MVVM Architecture
+- MVVM Architecture
 
 Coroutines / Flow
 ---
 
 ### ▶️ How to Run the App
 
-Clone or download this repository.
+- Clone or download this repository.
 
-Open the project in Android Studio.
+- Open the project in Android Studio.
 
-Let Gradle sync automatically.
+- Let Gradle sync automatically.
 
 Run the app on an emulator or physical Android device (API 24+ recommended).
 ---
 
 ### 🔮 Future Improvements
 
-Filter by date range and category
+- Filter by date range and category
 
-Export expenses to CSV / PDF
+- Export expenses to CSV / PDF
 
-Add Dark Mode
+- Add Dark Mode
 
 Add charts for visual expense analysis
 ---
