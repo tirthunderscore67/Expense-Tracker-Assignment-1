@@ -28,33 +28,17 @@ Total Expense
 
 Balance
 
-Simple bar chart to visualize expenses
-
-🗂 Categories
-
-Food
-
-Travel
-
-Shopping
-
-Utilities
-
-Others
-
 🔥 Tech Stack
 
 Kotlin
 
-Jetpack Compose for UI
+Jetpack Compose
 
-Room Database for local storage
-
-ViewModel + LiveData / StateFlow
-
-Material 3 Components
+Room Database
 
 MVVM Architecture
+
+ViewModel
 
 📂 Project Structure
 app/
@@ -68,46 +52,27 @@ app/
 │   ├── AddExpenseViewModel.kt
 │
 ├── ui/
-│   ├── screens/ → Add, Home, Stats
+│   ├── screens/ → Add, Home
 │   ├── components/ → Reusable UI components
 │
 ├── utils/ → Helper functions (date formatter, etc.)
 
 ▶️ How to Run the App
 
-Download or clone the project
+Clone or download the project
 
 Open it in Android Studio
 
-Make sure you have:
-
-Compose enabled
-
-Room dependencies added
-
 Sync Gradle
 
-Run on emulator or real device
-
-🗄 Room Database Structure
-Table: expenses
-{
-  "id": 1,
-  "name": "Lunch",
-  "amount": 150,
-  "date": "20 Nov 2025",
-  "category": "Food",
-  "type": "Expense"
-}
+Run the app on emulator or device
 
 🔮 Future Improvements
 
-Data backup to Firebase
+Firebase sync
 
-Export expenses to PDF
+Export to PDF
 
-More detailed analytics
+Better analytics
 
-Dark mode
-
-Budget alerts
+Dark theme
