@@ -27,19 +27,6 @@ It’s a simple and clean **Expense Tracker** application where users can add, v
 - Current **Balance**  
 
 ---
-
-## 🗄 Local Database (Room)
-
-### `expenses` table
-```json
-{
-  "id": 1,
-  "name": "Groceries",
-  "amount": 1200.0,
-  "date": "14 Nov 2025",
-  "category": "Food",
-  "type": "Expense"
-}
 📂 Project Structure
 
 app/
@@ -87,7 +74,18 @@ Add Dark Mode
 
 Add charts for visual expense analysis
 
+## 🗄 Local Database (Room)
 
+### `expenses` table
+```json
+{
+  "id": 1,
+  "name": "Groceries",
+  "amount": 1200.0,
+  "date": "14 Nov 2025",
+  "category": "Food",
+  "type": "Expense"
+}
 
 
 
