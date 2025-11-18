@@ -76,6 +76,10 @@ Run the app on an emulator or physical Android device (API 24+ recommended).
 
 Add charts for visual expense analysis
 ---
+<img width="347" height="691" alt="Screenshot 2025-11-11 021007" src="https://github.com/user-attachments/assets/d0806791-c7ff-4708-be71-ad9f93601e4c" />
+
+
+
 
 ## 🗄 Local Database (Room)
 
