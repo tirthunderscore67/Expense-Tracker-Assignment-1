@@ -1,78 +1,42 @@
-💰 Expense Tracker App (Android – Kotlin + Room + Jetpack Compose)
+# 💰 Expense Tracker App (Android – Kotlin + Room + Jetpack Compose)
 
-This is my 3rd Year Computer Engineering project for Mobile App Development.
-It’s a simple and clean Expense Tracker application where users can add, view, categorize, and track their expenses.
+This is my **3rd Year Computer Engineering project** for Mobile App Development.  
+It’s a simple and clean **Expense Tracker** application where users can add, view, categorize, and track their expenses.
 
-🚀 Features
-➕ Add Expenses
+---
 
-Add name, amount, date, category, and type
+## 🚀 Features
 
-Auto-formatted date
+### ✍️ Add Expenses
+- Add **name**, **amount**, **date**, **category**, and **type** (Income / Expense)  
+- Auto-formatted date  
+- Data stored locally using **Room Database**
 
-Data stored locally using Room Database
+---
 
-📋 View Expenses
+### 📒 View Expenses
+- List of all expenses  
+- Real-time updates using **Flow / LiveData**  
+- Organized by **category** and **type**
 
-List of all expenses
+---
 
-Real-time updates
+### 📊 Expense Summary
+- Total **Income**  
+- Total **Expense**  
+- Current **Balance**  
 
-Organized by category and type
+---
 
-📊 Expense Summary
+## 🗄 Local Database (Room)
 
-Total Income
-
-Total Expense
-
-Balance
-
-🔥 Tech Stack
-
-Kotlin
-
-Jetpack Compose
-
-Room Database
-
-MVVM Architecture
-
-ViewModel
-
-📂 Project Structure
-app/
-├── data/
-│   ├── dao/ → ExpenseDao.kt
-│   ├── model/ → ExpenseEntity.kt
-│   ├── ExpenseDataBase.kt
-│
-├── viewmodel/
-│   ├── HomeViewModel.kt
-│   ├── AddExpenseViewModel.kt
-│
-├── ui/
-│   ├── screens/ → Add, Home
-│   ├── components/ → Reusable UI components
-│
-├── utils/ → Helper functions (date formatter, etc.)
-
-▶️ How to Run the App
-
-Clone or download the project
-
-Open it in Android Studio
-
-Sync Gradle
-
-Run the app on emulator or device
-
-🔮 Future Improvements
-
-Firebase sync
-
-Export to PDF
-
-Better analytics
-
-Dark theme
+### `expenses` table
+```json
+{
+  "id": 1,
+  "name": "Groceries",
+  "amount": 1200.0,
+  "date": "14 Nov 2025",
+  "category": "Food",
+  "type": "Expense"
+}
